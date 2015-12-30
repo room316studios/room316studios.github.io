@@ -750,6 +750,44 @@ p, li, a {
   background-color: #FFF;
   padding: 3rem 0 6rem 0;
 }
+  .main-content h2 {
+    color: #0a4760;
+    font-size: 2rem;
+  }
+
+
+.repo-block {
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+}
+  .repo-block h2 {
+    color: #333;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
+  }
+  .repo-block hr {
+    border: 1px solid #4bb1e2;
+    margin: 15px 0;
+    width: 70px;
+  }
+  .repo-block p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .repo-block:hover {
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.65);
+    cursor: pointer;
+  }
+    .repo-block:hover h2 {
+      color: #0a4760;
+    }
+    .repo-block:hover hr {}
+    .repo-block:hover p {}
+
 
 
   .site-footer {
@@ -794,35 +832,3 @@ p, li, a {
       .social__icon--last {
         margin-right: 15px;
         margin-right: 1rem; }
-
-
-.repo-block {
-  box-shadow: 1px 1px 4px rgba(0,0,0,0.45);
-  box-sizing: border-box;
-  padding: 2rem;
-  width: 100%;
-}
-  .repo-block h2 {
-    font-size: 30px;
-    line-height: 1;
-    margin: 0;
-  }
-  .repo-block hr {
-    border: 1px solid #4bb1e2;
-    margin: 15px 0;
-    width: 70px;
-  }
-  .repo-block p {
-    font-size: 13px;
-    margin: 0;
-  }
-
-  .repo-block:hover {
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.65);
-    cursor: pointer;
-  }
-    .repo-block:hover h2 {
-      color: #0a4760;
-    }
-    .repo-block:hover hr {}
-    .repo-block:hover p {}
