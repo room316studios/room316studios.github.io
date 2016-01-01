@@ -721,6 +721,19 @@ p, li, a {
     font-size: 1.2rem;
   }
 
+@media (max-width:615px) {
+  .banner__heading {
+    font-size: 40px;
+    margin-bottom: 65px;
+  }
+  .banner__heading--superscript {
+    right: 0;
+  }
+  .banner .button {
+    font-size: 1rem;
+  }
+}
+
   .site-footer__logo {
     border: 2px solid #FFF;
     color: #FFF;
