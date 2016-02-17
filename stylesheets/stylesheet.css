@@ -780,8 +780,11 @@ p, li, a {
   box-shadow: 1px 1px 4px rgba(0,0,0,0.45);
   box-sizing: border-box;
   display: block;
+  margin-bottom: 1.2rem;
+  min-height: 180px;
   padding: 2rem;
   text-decoration: none;
+  transition: all 0.5s linear;
   width: 100%;
 }
   .repo-block h2 {
@@ -806,11 +809,18 @@ p, li, a {
     cursor: pointer;
   }
     .repo-block:hover h2 {
-      color: #0a4760;
+      /*color: #0a4760;*/
+      color:#FFF;
+      transition: all 0.5s linear;
     }
-    .repo-block:hover hr {}
-    .repo-block:hover p {}
-
+    .repo-block:hover hr {
+      border-color: #FFF;
+      transition: all 0.5s linear;
+    }
+    .repo-block:hover p {
+      color:#FFF;
+      transition: all 0.5s linear;
+    }
 
 
   .site-footer {
